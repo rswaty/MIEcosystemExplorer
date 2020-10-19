@@ -1,0 +1,17 @@
+---
+title: "Untitled"
+author: "Randy Swaty"
+date: "10/17/2020"
+output: html_document
+---
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+htmltools::tags$iframe(title = "My embedded document", src = "cpDist.html", frameborder = "0", width = "100%", height="800")
+```
+
+<br>
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+htmltools::tags$iframe(title = "My embedded document", src = "snky.html", frameborder = "0", width = "100%", height="800")
+```
