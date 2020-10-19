@@ -7,7 +7,7 @@ View(distChord)
 # load igraph library and create adjacency matrix
 library(igraph)
 distChordmx2 <- as.matrix(as_adjacency_matrix(graph_from_data_frame(distChord), attr = "Acres", names = T))
-distChordmx2<- distChordmx2[c(1:8), c(9:13)] %>% t()
+distChordmx2<- distChordmx2[c(1:8), c(9:12)] %>% t()
 
 # load chorddiag lobrary and create cord diagram
 library(chorddiag)

@@ -1,0 +1,18 @@
+---
+title: "final to do"
+author: "Randy Swaty"
+date: "10/19/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## TO DO
+
+### add intro slide
+  
+  * 3 photos or one long one across the bottom of ecosystems
+  * 3-5 questions (to be repeated on last slide, with answers)
+  * a little about the dashboard
