@@ -31,14 +31,16 @@ library(dplyr)
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
 ```
 
-### Welcome! {data-commentary-width=400}
+### Welcome! 
 
 #### This Dashboard...
 
-was built by Randy Swaty as springboard for learning about the major ecosystems of Michigan, how they've changed, and a little bit about how *you* view them.  As you explore, look for answers to these questions:
+was built by me, Randy Swaty as springboard for learning about the major ecosystems of Michigan, how they've changed, and a little bit about how *you* view them.  I am ecologist who studies ecosystems from large to very small.  I also love working with students!  
+
+As you explore, look for answers to these questions:
 
 * Are you a lumper or a splitter?  Why does that matter?
-* Of the ecosystems presented here, what percentage of Michigan was/is covered by wetlands? Oh and what is an "ecosytem"?
+* Of the ecosystems presented here, what percentage of Michigan was/is covered by wetlands? Oh and what is an "ecosystem"?
 * How much fire was there in Michigan historically in these major ecosystems?
 * Which ecosystems do you think you've seen?  Which ones would you like to see next?
 
@@ -46,7 +48,7 @@ was built by Randy Swaty as springboard for learning about the major ecosystems 
 #### 
 
 ```{r, echo=FALSE, fig.width=12, fig.height=3} 
-knitr::include_graphics("collage.jpg")
+knitr::include_graphics("collage2.jpg")
 ```
 <br>
 Blueberries, aerial view of Duck Lake Fire in Luce county Michigan, regenerating maples in light gap, moose (!), happy kid.  All photos by Randy Swaty.
@@ -104,12 +106,18 @@ p1
 *** 
 **The Ecosystems**
 
-* [Northern tallgrass prairie](https://www.nps.gov/tapr/learn/nature/a-complex-prairie-ecosystem.htm){target='blank'}
-* [Northern Hardwood Forests](https://en.wikipedia.org/wiki/Northern_hardwood_forest){target='blank'}
+If you took the Lumper-Splitter quiz you already have an understanding about how different people classify and name ecosystems. Note words in the ecosystem names on the chart below-words like "barrens", "woodlands", "forest", (those first three are related to an increase in tree canopy coverage.) "swamp", "mesic", and "peatlands" (you know what "dry" means already!).  Hit up Google to see what you find.  I used LANDFIRE data for all the charts and maps, but feel that [Michigan Natural Features Inventory (MNFI)](https://mnfi.anr.msu.edu/){target='blank'} might be the best resource for learning about these ecosystems for Michigan.  I've listed some dominant species for each ecosystem and linked the relevant MNFI descriptions below. See their [key](https://mnfi.anr.msu.edu/communities/key) for more information, and to explore all of Michigan's ecosystems!
 
-etc.
-
-OR...teach them to pick the name apart...what is a "forest" compared to a "savanna"?  Plus showcase some trees?
+* [Northern Hardwood Forests-Hemlock: sugar maple, eastern hemlock, American beech](https://mnfi.anr.msu.edu/communities/description/10687/mesic-northern-forest){target='blank'}
+* [Beech-Maple Forest](https://mnfi.anr.msu.edu/communities/description/10684/mesic-southern-forest){target='blank'}
+* [Alkaline Conifer-Hardwood Swamp](https://mnfi.anr.msu.edu/communities/description/10656/hardwood-conifer-swamp){target='blank'}
+* [Northern Pine(-Oak) Forest](https://mnfi.anr.msu.edu/communities/description/10689/dry-northern-forest){target='blank'}
+* [Dry-Mesic Oak Forest and Woodland](https://mnfi.anr.msu.edu/communities/description/10685/dry-mesic-southern-forest){target='blank'}
+* [Pine-Hemlock-Hardwood Forest](https://mnfi.anr.msu.edu/communities/description/10688/dry-mesic-northern-forest){target='blank'}
+* [Oak Barrens](https://mnfi.anr.msu.edu/communities/description/10693/oak-barrens){target='blank'}
+* [Boreal Acidic Peatland Systems(note-please review all peatland types)](https://mnfi.anr.msu.edu/communities/key){target='blank'}
+* [White Spruce-Fir-Hardwood Forest](https://mnfi.anr.msu.edu/communities/description/10690/boreal-forest){target='blank'}
+* [Floodplains](https://mnfi.anr.msu.edu/communities/description/10658/floodplain-forest){target='blank'}
 
 
 
