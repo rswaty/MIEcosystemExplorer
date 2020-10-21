@@ -129,10 +129,16 @@ knitr::include_graphics("bps.JPG")
 ```
 
 *** 
+**Historical Ecosystems of Michigan**
 
-What patterns do you see?  Use the "Zoom Out" function in your browser to get a little closer.
+<br>
 
-Remember me asking about historical disturbances like fire?  Explore this [chord diagram](distChord .html){target='blank'}
+What patterns do you see?  This map represents where we think the major ecosystems of Michigan would have been just prior to European settlement.  In general ecologists first figured out what drives these ecosystems to occur where they occur in terms of soil types, climate, geology and elevation.  Then they used datasets that represent those factors to predict where the ecosystems would have been.  For example, if an ecosystem was know to occur on well drained infertile soils in the coldest parts of the state, ecologists would look for those areas to place that ecosystem (*way oversimplified*!) At this time native Americans were managing the vegetation, largely through fire.  Another thing to explore: [Native Land Digital's map of indigenous territories](https://native-land.ca/){target='blank'}.  
+
+
+I purposely did not add a zoom function to this map (well, you can use the zoom on your browser!).  Why you ask? One reason is that I don't know how to yet :).  Another, and more important reason is that I wanted you to get a macro or satellite view of things.  This is an important perspective.  For now enjoy the view!  Also, while it may be a bit frustrating to not have a legend, we know that you learn and remember more if you exercise your brain a little bit.  I did make the colors of the previous chart the same as the colors on the map.  Toggle back and forth, remember the colors and see what you can find!
+
+Remember me asking about historical disturbances like fire?  Explore this [chord diagram](distChord .html){target='blank'} and do a little addtion noting that I think that the acres of fire (for example) depicted in the chord diagram are impressive, the are low.  I am certain there was more fire, and definitely more insect damage.  Want to help me improve the models we used?  Data from the ["Biophysical Settings" Models developed by LANDFIRE.](https://www.landfire.gov/bps-models.php){target='blank'}
 
 
 ### Ecosystems Today {data-commentary-width=400}
@@ -164,13 +170,17 @@ evt
 
 *** 
 
-* For a map of agricultural and urban land uses click [here](agDev.jpg){target='blank'}
-* To explore conversion for the coterminous (what does *that* mean?) United States, explore this [web app](https://randy-swaty.shinyapps.io/EcosystemExplorerRS/){target='blank'} developed by Mathurin Gagnon (big data-this may take a few moments to load).
+**Much of Michigan has been converted to agriculture!**
+Here I calculated the acres for the 10 most prevalent "ecosystems" in Michigan as of the latest data, ca2016.  A couple questions for you:
+
+* Are agricultural lands ecosystems?  Why or why not?  All crops are not the same...are the impacts of pastures the same as row crops such as corn?
+* Which ecosystems were most converted to agriculture?  Explore the map [here,](agDev.jpg){target='blank'} and/or check out the "Sankey Diagram" on the next tab.
+
+
+To explore conversion for the coterminous (what does *that* mean?) United States, explore this [web app](https://randy-swaty.shinyapps.io/EcosystemExplorerRS/){target='blank'} developed by a native of Marquette, MI Mathurin Gagnon (big data-this may take a few moments to load).
 
 
 ### Change {data-commentary-width=400}
-
-
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, fig.width=12}
 
@@ -178,3 +188,38 @@ htmltools::tags$iframe(title = "My embedded document", src = "snky.html", frameb
 ```
 
 ***
+**Change Happens**
+
+This is a Sankey Diagram.  On the left are the amounts and names of the historical ecosystems.  On the right are the most prevalent modern ecosystems.  The grey bands represent transitions from one to another.  Hover your mouse cursor over the different areas of the chart to build a picture in your mind about which ecosystems have transitions to which.  Some questions to think about:
+
+* Which ecosytems were most converted to row crops?
+* Which ecosystems have had the least amount of conversion?
+* What might "close grown crop" be?
+
+To dig (ha ha) deeper into forest conversion world wide, and to even check out really cool global tree cover maps read [this paper](https://www.sciencemag.org/news/2018/09/scientists-reveal-how-much-world-s-forests-being-destroyed-industrial-agriculture){target='blank'} then explore [these maps](https://www.globalforestwatch.org/map/){target='blank'}.
+
+While I've focused on terrestrial ecosystems, take a minute to explore and think about how conservationists can work with farmers at the interface of [soil and water](https://www.nature.org/en-us/about-us/who-we-are/how-we-work/working-with-companies/companies-investing-in-nature1/conservation-where-soil-and-water-meet/){target='blank'}.  
+
+
+### Answers, Ideas and Contacts
+
+**Some answers to the questions on the Welcome tab:**
+
+* Are you a lumper or a splitter? Why does that matter?
+    * I can not tell you if you are a lumper or a splitter.  I am more of a lumper myself.  
+    * This helps us understand how we view the our surroundings.  On your next walk or ride try to decide when one ecosystem becomes the next.  When does northern hardwoods become pine-hemlock-hardwoods forest?  There is actually a [Wikipedia entry](https://en.wikipedia.org/wiki/Lumpers_and_splitters#:~:text=A%20%22lumper%22%20is%20an%20individual,that%20differ%20in%20key%20ways.){target='blank'} on lumpers and splitters!  
+* Of the ecosystems presented here, what percentage of Michigan was/is covered by wetlands? Oh and what is an “ecosystem”?
+    * Roughly 25% of Michigan was wetlands.  This has not changed much.  In some areas this percentage is much higher, such as at [Seney National Wildlife Refuge](https://www.fws.gov/refuge/seney/){target='blank'} which is over 80% wetlands!
+    * Ecosystem: first, keep your eyes peeled for "eco" things, like an Eco-Boost motor on a truck.  Does that make sense?  "Eco" roughly means "house" in Greek.  To me an ecosystem is a set of organisms interacting with each other and their environment to one degree or another.  National Geographic has a good entry on this term [here](https://www.nationalgeographic.org/encyclopedia/ecosystem/){target='blank'}.
+* How much fire was there in Michigan historically in these major ecosystems?
+    * A lot.  In the chord diagram I have ~805,000 acres burning annually prior to European settlement.  This does not include all ecosystems!  I figure that roughly 1,200,000 acres burned annually before we started putting them all out, and converting lands.  Today 30,000 acres is about the maximum.  
+* Which ecosystems do you think you’ve seen? Which ones would you like to see next?
+
+**Ideas for where you can go next!
+
+
+
+
+
+
+
